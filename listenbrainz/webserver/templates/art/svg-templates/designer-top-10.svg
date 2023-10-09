@@ -1,4 +1,4 @@
-<svg id="svg2" 
+<svg id="svg2"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns="http://www.w3.org/2000/svg"
      version="1.1"
@@ -32,6 +32,7 @@
    <text id="date"><tspan id="tspan18" y="36" x="773">{{ metadata["date"] }}</tspan></text>
   </g>
   <g font-size="35px">
+   <a href="https://musicbrainz.org/artist/{{ releases[0].artist_mbids[0] }}">
    <text
      id="artist-1">
      <tspan
@@ -48,6 +49,8 @@
        class="artist-name"
        id="artist-1-name">{{ releases[0].artist_name|upper|e }}</tspan>
    </text>
+   </a>
+   <a href="https://musicbrainz.org/artist/{{ releases[1].artist_mbids[0] }}">
    <text
      id="artist-2">
      <tspan
@@ -64,6 +67,8 @@
        class="artist-name"
        id="artist-2-name">{{ releases[1].artist_name|upper|e }}</tspan>
    </text>
+   </a>
+   <a href="https://musicbrainz.org/artist/{{ releases[2].artist_mbids[0] }}">
    <text
      id="artist-3">
      <tspan
@@ -80,6 +85,8 @@
        class="artist-name"
        id="artist-3-name">{{ releases[2].artist_name|upper|e }}</tspan>
    </text>
+   </a>
+   <a href="https://musicbrainz.org/artist/{{ releases[3].artist_mbids[0] }}">
    <text
      id="artist-4">
      <tspan
@@ -96,6 +103,8 @@
        class="artist-name"
        id="artist-4-name">{{ releases[3].artist_name|upper|e }}</tspan>
    </text>
+   </a>
+   <a href="https://musicbrainz.org/artist/{{ releases[4].artist_mbids[0] }}">
    <text
      id="artist-5">
      <tspan
@@ -112,6 +121,8 @@
        class="artist-name"
        id="artist-5-name">{{ releases[4].artist_name|upper|e }}</tspan>
    </text>
+   </a>
+   <a href="https://musicbrainz.org/artist/{{ releases[5].artist_mbids[0] }}">
    <text
      id="artist-6">
      <tspan
@@ -129,6 +140,8 @@
        id="artist-6-name">{{ releases[5].artist_name|upper|e }}</tspan>
    </text>
 
+</a>
+   <a href="https://musicbrainz.org/artist/{{ releases[6].artist_mbids[0] }}">
    <text
      id="artist-7">
      <tspan
@@ -145,6 +158,8 @@
        class="artist-name"
        id="artist-7-name">{{ releases[6].artist_name|upper|e }}</tspan>
    </text>
+   </a>
+   <a href="https://musicbrainz.org/artist/{{ releases[7].artist_mbids[0] }}">
    <text
      id="artist-8">
      <tspan
@@ -161,6 +176,8 @@
        class="artist-name"
        id="artist-8-name">{{ releases[7].artist_name|upper|e }}</tspan>
    </text>
+   </a>
+   <a href="https://musicbrainz.org/artist/{{ releases[8].artist_mbids[0] }}">
    <text
      id="artist-9">
      <tspan
@@ -177,6 +194,8 @@
        class="artist-name"
        id="artist-9-name">{{ releases[8].artist_name|upper|e }}</tspan>
    </text>
+   </a>
+   <a href="https://musicbrainz.org/artist/{{ releases[9].artist_mbids[0] }}">
    <text
      id="artist-10">
      <tspan
@@ -193,7 +212,7 @@
        class="artist-name"
        id="artist-10-name">{{ releases[9].artist_name|upper|e }} </tspan>
    </text>
-  
+   </a>
   </g>
   <g id="lines" stroke="#FAFF5B">
     <line
@@ -256,6 +275,6 @@
        x2="925"
        y2="802"
        id="line-10" />
-  </g> 
+  </g>
  </g>
 </svg>
