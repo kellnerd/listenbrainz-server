@@ -1,4 +1,4 @@
-<svg id="svg2" 
+<svg id="svg2"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns="http://www.w3.org/2000/svg"
      version="1.1"
@@ -29,11 +29,11 @@
    <text id="date"><tspan id="tspan18" y="36" x="773">{{ metadata["date"] }}</tspan></text>
   </g>
   <g font-size="186px">
-   <text id="artist_1"><tspan id="tspan22" y="211" x="-20">{{ artists[0].artist_name|upper|e }}</tspan></text>
-   <text id="artist_2"><tspan id="tspan26" y="375" x="-20">{{ artists[1].artist_name|upper|e }}</tspan></text>
-   <text id="artist_3"><tspan id="tspan30" y="534" x="-20">{{ artists[2].artist_name|upper|e }}</tspan></text>
-   <text id="artist_4"><tspan id="tspan34" y="692" x="-20">{{ artists[3].artist_name|upper|e }}</tspan></text>
-   <text id="artist_5"><tspan id="tspan38" y="849" x="-20">{{ artists[4].artist_name|upper|e }}</tspan></text>
+   <a href="https://musicbrainz.org/artist/{{artists[0].artist_mbid}}"><text id="artist_1"><tspan id="tspan22" y="211" x="-20">{{ artists[0].artist_name|upper|e }}</tspan></text></a>
+   <a href="https://musicbrainz.org/artist/{{artists[1].artist_mbid}}"><text id="artist_2"><tspan id="tspan26" y="375" x="-20">{{ artists[1].artist_name|upper|e }}</tspan></text></a>
+   <a href="https://musicbrainz.org/artist/{{artists[2].artist_mbid}}"><text id="artist_3"><tspan id="tspan30" y="534" x="-20">{{ artists[2].artist_name|upper|e }}</tspan></text></a>
+   <a href="https://musicbrainz.org/artist/{{artists[3].artist_mbid}}"><text id="artist_4"><tspan id="tspan34" y="692" x="-20">{{ artists[3].artist_name|upper|e }}</tspan></text></a>
+   <a href="https://musicbrainz.org/artist/{{artists[4].artist_mbid}}"><text id="artist_5"><tspan id="tspan38" y="849" x="-20">{{ artists[4].artist_name|upper|e }}</tspan></text></a>
   </g>
  </g>
 </svg>
